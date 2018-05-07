@@ -10,3 +10,13 @@ body {
 .nav-item {
   padding-right: 40px;
 }
+
+.float-right-nav {
+  position: absolute;
+  right: 0;
+  padding-right: 40px;
+}
+
+.navigation-contacts {
+  padding-right: 5px;
+}
