@@ -1,0 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  height: 100px;
+  padding: 0 100px;
+}
+
+.nav-item {
+  padding-right: 40px;
+}
