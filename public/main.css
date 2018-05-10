@@ -73,7 +73,7 @@ p {
 }
 
 .container {
-  max-width: 80%;
+  max-width: 80%!important;
 }
 
 .project-section-header {
@@ -84,12 +84,29 @@ p {
 hr {
   border-width: 0;
   border-top: 1px solid lightgrey;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
+  width: 50%;
 }
 
 .project-header-hr {
-  width: 50%;
   margin: 1.3rem auto;
+}
+
+.row {
+  margin: 5rem auto;
+}
+
+.half-of-column {
+  width: 48%;
+}
+
+.project-photo img {
+  max-width: 100%;
+  border: 1px solid lightgrey;
+}
+
+.right-photo {
+  margin-left: 35px;
 }
 
 @media only screen and (max-width: 991px) {
