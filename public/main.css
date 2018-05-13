@@ -101,10 +101,9 @@ hr {
   width: 48%;
 }
 
-.project-photo img {
-  max-width: 100%;
-  border: 1px solid lightgrey;
-  cursor: pointer;
+.diskov-project-photo, .quote-catcher-project-photo {
+  height: 100%;
+  width: 100%;
   -webkit-filter: brightness(100%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -113,13 +112,23 @@ hr {
   transition: all 1s ease;
 }
 
-.project-photo img:hover {
+.project-photo {
+  max-width: 100%;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.project-photo:hover img {
     -webkit-filter: brightness(70%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .right-description {
