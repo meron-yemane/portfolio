@@ -103,6 +103,26 @@ hr {
 .project-photo img {
   max-width: 100%;
   border: 1px solid lightgrey;
+  cursor: pointer;
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.project-photo img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.right-description {
+  margin-left: 35px;
 }
 
 .right-photo {
