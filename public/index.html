@@ -23,10 +23,10 @@
           <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact-info">Contact</a>
         </li>
         <ul class="navbar-nav float-right-nav">
           <li class="nav-item navigation-contacts">
@@ -51,7 +51,7 @@
       </p>
     </div>
   </section>
-  <section id="main-body">
+  <div id="main-body">
     <div id="projects">
       <div class="container">
         <h2 class="project-section-header">Sample Projects</h2>
@@ -79,9 +79,10 @@
             </div>
           </div>
           <div class="half-of-column">
-            <h5>Diskov</h5>
+            <div class="project-description right-description">
+              <h5>Diskov</h5>
               <hr class="project-name-hr">
-              <p class="right-description">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales cursus magna, vel pellentesque lorem mollis id. In at tellus sapien. Duis semper turpis non porta aliquam. Suspendisse potenti. Phasellus congue sed massa at tincidunt. 
               </p>
             </div>
@@ -89,13 +90,37 @@
         </div>
       </div>
     </div>
-    <div class="about">
-      
+    <div id="about">
+      <div class="container">
+        <h2 class="about-section-header">About</h2>
+        <hr class="about-header-hr">
+        <div class="about-content">
+          <div class="about-bio-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales cursus magna, vel pellentesque lorem mollis id. In at tellus sapien. Duis semper turpis non porta aliquam. Suspendisse potenti. Phasellus congue sed massa at tincidunt. </p>
+          </div>
+          <div class="about-photo">
+            <img class="headshot" src="./images/headshot.jpg">
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="contact-info">
-      
+    <div id="contact-info">
+    <hr class="contact-divider">
+      <div class="contact-header">
+        <h2>Lets talk - feel free to use any of the methods listed here to contact/connect with me.</h2>
+      </div>
+      <div class="contact-specifics">
+        <h5>Via email:</h5>
+        <a href="mailto:meronyemane18@gmail.com">meronyemane18@gmail.com</a>
+        <h5 class="contact-social-media">Via social media:</h5>
+        <a href="https://www.linkedin.com/in/meron-yemane" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://www.github.com/meron93" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+      </div>
     </div>
-  </section>
+  </div>
+  <footer>
+    <p>Website by Meron Yemane</p>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
