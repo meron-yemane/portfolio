@@ -5,7 +5,17 @@
   <meta name="description" content="Meron Yemane's Web Development Portfolio">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
@@ -13,34 +23,38 @@
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact-info">Contact</a>
-        </li>
-        <ul class="navbar-nav float-right-nav">
-          <li class="nav-item navigation-contacts linkedin">
-            <a class="nav-link linkedin" href="https://www.linkedin.com/in/meron-yemane" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact-info">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="linkedin" href="https://www.linkedin.com/in/meron-yemane" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
           </li>
-          <li class="nav-item navigation-contacts">
-            <a class="nav-link" href="https://www.github.com/meron93" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+          <li>
+            <a href="https://www.github.com/meron93" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
           </li>
-          <li class="nav-item navigation-contacts">
-            <a class="nav-link" href="mailto:meronyemane18@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+          <li>
+            <a href="mailto:meronyemane18@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
           </li>
         </ul>
-      </ul>
-    </div>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
   </nav>
   <section id="wood-background">
     <div class="wood-background-content">
@@ -59,7 +73,7 @@
         <div id="quote-catcher-project" class="row description-left-photo-right">
           <div class="half-of-column">
             <div class="project-description left-description">
-              <h5>Quote Catcher</h5>
+              <h3>Quote Catcher</h3>
               <hr class="project-name-hr">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales cursus magna, vel pellentesque lorem mollis id. In at tellus sapien. Duis semper turpis non porta aliquam. Suspendisse potenti. Phasellus congue sed massa at tincidunt. 
@@ -67,6 +81,10 @@
             </div>
           </div>
           <div class="half-of-column">
+            <div class="mobile-project-description">
+              <h3>Quote Catcher</h3>
+              <hr>
+            </div>
             <div class="project-photo right-photo">
               <img class="quote-catcher-project-photo" src="./images/add-quote-screenshot.png">
             </div>
@@ -74,13 +92,17 @@
         </div>
         <div id="diskov-project" class="row description-right-photo-left">
           <div class="half-of-column">
+            <div class="mobile-project-description">
+              <h3>Diskov</h3>
+              <hr>
+            </div>
             <div class="project-photo left-photo">
               <img class="diskov-project-photo" src="./images/genresearchscreenshot.png">
             </div>
           </div>
           <div class="half-of-column">
             <div class="project-description right-description">
-              <h5>Diskov</h5>
+              <h3>Diskov</h3>
               <hr class="project-name-hr">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales cursus magna, vel pellentesque lorem mollis id. In at tellus sapien. Duis semper turpis non porta aliquam. Suspendisse potenti. Phasellus congue sed massa at tincidunt. 
@@ -91,7 +113,7 @@
       </div>
     </div>
     <div id="about">
-      <div class="container">
+      <div class="about-container">
         <h2 class="about-section-header">About</h2>
         <hr class="about-header-hr">
         <div class="about-content">
@@ -126,6 +148,6 @@
   crossorigin="anonymous"></script>
   <script src="app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
 </html>

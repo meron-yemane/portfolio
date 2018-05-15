@@ -1,14 +1,18 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  padding-top: 50px; 
 }
 
-.navbar {
+/*.navbar {
   height: 100px;
-  padding: 0 100px;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 9999;
+}
+
+.navbar-nav {
+  padding-left: 50px;
 }
 
 .nav-item {
@@ -23,7 +27,7 @@ body {
 
 .navigation-contacts {
   padding-right: 5px;
-}
+}*/
 
 #wood-background {
   display: flex;
@@ -40,12 +44,12 @@ body {
 }
 
 .wood-background-content {
-  padding: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
+  padding-top: 200px;
 }
 
 .my-name {
@@ -56,11 +60,16 @@ body {
 
 p {
   font-weight: 300;
+  font-size: 16px;
 }
 
-.bg-light {
-  background-color: #F8F9FC!important;
+#quote-catcher-project, #diskov-project {
+  display: inline-flex;
 }
+
+/*.bg-light {
+  background-color: #F8F9FC!important;
+}*/
 
 #main-body {
   width: 100%;
@@ -74,9 +83,9 @@ p {
   padding-top: 100px;
 }
 
-.container {
+/*.about-container {
   max-width: 80%!important;
-}
+}*/
 
 .project-section-header, .about-section-header {
   letter-spacing: 1px;
@@ -109,6 +118,7 @@ hr {
 
 .about-bio-content p {
   margin-top: 25%;
+  padding-left: 100px;
 }
 
 .diskov-project-photo, .quote-catcher-project-photo {
@@ -150,8 +160,8 @@ hr {
 }
 
 #about {
-  margin-top: 100px;
-  padding-top: 100px;
+/*  margin-top: 100px;
+*/  padding-top: 100px;
 }
 
 .about-section-header {
@@ -174,7 +184,7 @@ hr {
 }
 
 .about-photo {
-  width: 50%;
+  margin-left: 100px;
 }
 
 .contact-divider {
@@ -223,6 +233,14 @@ hr {
   color: black;
 }
 
+#contact-info {
+  outline: none;
+}
+
+.mobile-project-description {
+  display: none;
+}
+
 footer {
   background-color: lightblue;
   padding: 1rem;
@@ -232,8 +250,74 @@ footer p {
   text-align: center;
 }
 
+@media only screen and () {
+
+}
+
 @media only screen and (max-width: 991px) {
-  .float-right-nav {
-    position: relative;
+  .contact-divider {
+    width: 75%;
+  }
+
+  .project-description p {
+    font-size: 14px;
+  }
+
+  .project-description h3 {
+    margin-top: 0;
+    font-size: 20px;
   }
 }
+
+@media only screen and (max-width: 765px) {
+  .mobile-project-description {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .mobile-project-description hr {
+    width: 25%;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .half-of-column {
+    width: unset;
+  }
+
+  .right-photo {
+    margin-left: 0px;
+  }
+
+  .about-content {
+    display: block;
+  }
+
+  .about-bio-content {
+    width: unset;
+  }
+
+  .about-bio-content p {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 0 60px
+  }
+
+  .about-photo {
+    margin-left: unset;
+  }
+
+  #wood-background {
+    height: 400px;
+  }
+}
+
+
+
+
+
+
+
+
