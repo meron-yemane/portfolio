@@ -3,32 +3,6 @@ body {
   padding-top: 50px; 
 }
 
-/*.navbar {
-  height: 100px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-}
-
-.navbar-nav {
-  padding-left: 50px;
-}
-
-.nav-item {
-  padding-right: 40px;
-}
-
-.float-right-nav {
-  position: absolute;
-  right: 0;
-  padding-right: 40px;
-}
-
-.navigation-contacts {
-  padding-right: 5px;
-}*/
-
 #wood-background {
   display: flex;
   flex-direction: column;
@@ -49,7 +23,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 250px;
 }
 
 .my-name {
@@ -67,10 +41,6 @@ p {
   display: inline-flex;
 }
 
-/*.bg-light {
-  background-color: #F8F9FC!important;
-}*/
-
 #main-body {
   width: 100%;
   height: 100%;
@@ -82,10 +52,6 @@ p {
   text-align: center;
   padding-top: 100px;
 }
-
-/*.about-container {
-  max-width: 80%!important;
-}*/
 
 .project-section-header, .about-section-header {
   letter-spacing: 1px;
@@ -160,8 +126,7 @@ hr {
 }
 
 #about {
-/*  margin-top: 100px;
-*/  padding-top: 100px;
+  padding-top: 100px;
 }
 
 .about-section-header {
@@ -170,7 +135,9 @@ hr {
 
 .about-content {
   flex-direction: row;
-  display: flex;  
+  display: flex; 
+  max-width: 1400px;
+  margin: 0 auto; 
 }
 
 .headshot {
@@ -233,7 +200,7 @@ hr {
   color: black;
 }
 
-#contact-info {
+#contact-info, #projects, #about {
   outline: none;
 }
 
@@ -311,6 +278,10 @@ footer p {
 
   #wood-background {
     height: 400px;
+  }
+
+  .wood-background-content {
+    padding-top: 150px;
   }
 }
 
