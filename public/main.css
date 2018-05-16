@@ -285,6 +285,20 @@ footer p {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .my-name {
+    font-size: 35px;
+  }
+
+  #wood-background {
+    background: lightblue;
+  }
+
+  .wood-background-content p {
+    font-size: 12px;
+  }
+}
+
 
 
 
