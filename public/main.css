@@ -17,13 +17,17 @@ body {
   top: 0;
 }
 
-.wood-background-content {
+.wood-background-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 auto;
   padding-top: 250px;
+}
+
+.wood-background-content {
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .my-name {
@@ -217,10 +221,6 @@ footer p {
   text-align: center;
 }
 
-@media only screen and () {
-
-}
-
 @media only screen and (max-width: 991px) {
   .contact-divider {
     width: 75%;
@@ -280,7 +280,7 @@ footer p {
     height: 400px;
   }
 
-  .wood-background-content {
+  .wood-background-container {
     padding-top: 150px;
   }
 }
@@ -292,6 +292,10 @@ footer p {
 
   #wood-background {
     background: lightblue;
+  }
+
+  .wood-background-content {
+    background: unset;
   }
 
   .wood-background-content p {
