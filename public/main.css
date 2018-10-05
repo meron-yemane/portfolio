@@ -30,7 +30,17 @@ body {
   background: rgba(255, 255, 255, 0.75);
 }
 
+.wood-background-content > p {
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+
+.my-title {
+  font-size: 20px;
+}
+
 .my-name {
+  margin-bottom: 2px;
   font-size: 50px;
   text-transform: uppercase;
   font-weight: 400;
