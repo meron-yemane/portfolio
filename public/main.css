@@ -51,7 +51,7 @@ p {
   font-size: 16px;
 }
 
-#quote-catcher-project, #diskov-project {
+#quote-catcher-project, #diskov-project, #usermanagement-project {
   display: inline-flex;
 }
 
@@ -101,7 +101,7 @@ hr {
   padding-left: 100px;
 }
 
-.diskov-project-photo, .quote-catcher-project-photo {
+.diskov-project-photo, .quote-catcher-project-photo, .usermanagement-project-photo {
   height: 100%;
   width: 100%;
   -webkit-filter: brightness(100%);
